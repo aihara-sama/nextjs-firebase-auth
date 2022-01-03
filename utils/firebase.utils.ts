@@ -16,14 +16,7 @@ import {
 } from 'firebase/firestore';
 
 export const firebaseConfig = {
-  apiKey: 'AIzaSyAXPEr9OUMVttCdhrPJRFRiAUY6CV1fDuo',
-  authDomain: 'sentences-3406a.firebaseapp.com',
-  databaseURL: 'https://sentences-3406a-default-rtdb.firebaseio.com',
-  projectId: 'sentences-3406a',
-  storageBucket: 'sentences-3406a.appspot.com',
-  messagingSenderId: '394776494553',
-  appId: '1:394776494553:web:53ff73313d7c8b4eebd9c8',
-  measurementId: 'G-CB1WWFHH95',
+  // your firebase configs go here...
 };
 
 firebase.initializeApp(firebaseConfig);
